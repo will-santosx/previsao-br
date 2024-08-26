@@ -64,7 +64,7 @@ export function MainCard({ data }: MainCardProps) {
             <div className="absolute pointer-events-none -z-0 inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_60%,black)] transition-opacity duration-500 opacity-60"></div>
           </div>
           {/* additional weather details */}
-          <div className="w-full md:w-[60%] flex gap-y-5 sm:flex-row flex-col justify-around">
+          <div className="w-full md:w-[60%] flex gap-y-5 sm:flex-row flex-col justify-around mt-10">
             <div className="flex flex-col items-center text-[18px]">
               <div className="flex items-center gap-1">
                 <WiHumidity className="text-green-700/60 border w-6 h-6 rounded-full border-black transition-transform duration-300 transform hover:scale-110" />
